@@ -5,6 +5,7 @@ import { getAnswers } from "../redux/actions/getAnswers";
 import { getPoints } from "../redux/actions/getPoints";
 import { getTracks } from "../redux/actions/getTracks";
 import { Link, Redirect } from "react-router-dom";
+import RandomBackground from "./RandomBackground";
 import ParticleTesting from "./ParticleTesting";
 import About from "./About";
 
@@ -26,7 +27,8 @@ function Landing(props) {
   return (
     <div className="max-h-screen ">
       <Header />
-      <ParticleTesting />
+      <RandomBackground />
+      {/* <ParticleTesting /> */}
       {/* // md:justify-center */}
       {/* Make left aligned */}
       {/*Make Hamburger aligned with button edge and line on mobile */}

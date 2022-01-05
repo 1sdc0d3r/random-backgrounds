@@ -5,7 +5,7 @@ function ParticleTesting() {
   const particleOpt = {
     particles: {
       number: {
-        value: 60,
+        value: 500,
         density: {
           enable: true,
           value_area: 800,
@@ -115,7 +115,11 @@ function ParticleTesting() {
 
   return (
     // <div className="fixed top-0 left-0 w-full h-full particle-wrapper">
-    <Particles params={particleOpt} className="particle-wrapper" />
+    <
+    Particles params = {
+      particleOpt
+    }
+    className = "particle-wrapper" / >
     // </div>
   );
 }
